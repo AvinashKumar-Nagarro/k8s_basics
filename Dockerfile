@@ -13,8 +13,5 @@ RUN pip install Flask
 # Make port 5000 available
 EXPOSE 5000
 
-# Define environment variable
-ENV NAME World
-
 # Run app.py when the container launches
 CMD ["python", "app.py"]
